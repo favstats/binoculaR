@@ -330,13 +330,13 @@ df_overview <- function (x, weight.by = NULL, alternate.rows = TRUE, show.id = T
     toWrite <- sju.rmspc(toWrite)
     page.content <- sju.rmspc(page.content)
   }
-  structure(class = c("sjTable", "view_df"), list(page.style = page.style,
+  structure(class = c("sjTable", "df_overview"), list(page.style = page.style,
                                                   page.content = page.content, page.complete = toWrite,
                                                   header = NULL, knitr = knitr, file = file, viewer = use.viewer))
 }
 
 
-#' Inspect SPSS dataset with little shiny app
+#' Helper Function
 #'
 #' @export
 
@@ -420,7 +420,7 @@ binoculaR <- function(data, ...) {
     output$levels <- renderUI({
       req(input$tab_rows_selected)
       dataset <- full_data()[, input$tab_rows_selected]
-      view_df(
+      df_overview(
         dataset,
         #show.frq = TRUE,
         # show.prc = TRUE,
