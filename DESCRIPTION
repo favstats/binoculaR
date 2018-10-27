@@ -11,6 +11,8 @@ Imports:
     miniUI,
     rstudioapi,
     labelled,
+    sjlabelled,
+    sjmisc,
     magrittr,
     DT,
     lazyeval
