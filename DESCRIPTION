@@ -5,7 +5,7 @@ Version: 0.1.0
 Author: SyRo and FaVo
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.0.9000
 Imports:
     shiny,
     miniUI,
