@@ -1,7 +1,6 @@
-#' Helper Function
+#' Helper Function 1
 #'
-#' @export
-
+#'
 sju.rmspc <- function (html.table)
 {
   cleaned <- gsub("      <", "<", html.table, fixed = TRUE,
@@ -12,11 +11,9 @@ sju.rmspc <- function (html.table)
 }
 
 
-#' Helper Function
+#' Helper Function 2
 #'
-#' @export
-
-
+#'
 get.encoding <- function (encoding, data = NULL)
 {
   if (is.null(encoding)) {
@@ -39,8 +36,6 @@ get.encoding <- function (encoding, data = NULL)
 #' View Dataframe Function adapted from sjPlot
 #'
 #' @export
-
-
 df_overview <- function (x, weight.by = NULL, alternate.rows = TRUE, show.id = TRUE,
                          show.type = FALSE, show.values = TRUE, show.string.values = FALSE,
                          show.labels = TRUE, show.frq = FALSE, show.prc = FALSE,
