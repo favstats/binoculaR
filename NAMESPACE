@@ -2,7 +2,5 @@
 
 export(binoculaR)
 export(df_overview)
-export(get.encoding)
 export(remove_nulls)
-export(sju.rmspc)
 export(var_names)

@@ -32,6 +32,16 @@ get.encoding <- function (encoding, data = NULL)
   return(encoding)
 }
 
+#' Helper 3
+#'
+#'
+has_value_labels <- function (x)
+{
+  !(is.null(attr(x, "labels", exact = T)) && is.null(attr(x,
+                                                          "value.labels", exact = T)))
+}
+
+
 
 #' View Dataframe Function adapted from sjPlot
 #'

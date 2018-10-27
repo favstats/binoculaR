@@ -2,10 +2,10 @@
 % Please edit documentation in R/helpers.R
 \name{get.encoding}
 \alias{get.encoding}
-\title{Helper Function}
+\title{Helper Function 2}
 \usage{
 get.encoding(encoding, data = NULL)
 }
 \description{
-Helper Function
+Helper Function 2
 }
