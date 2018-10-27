@@ -13,5 +13,4 @@ Imports:
     labelled,
     magrittr,
     DT,
-    lazyeval,
-    sjPlot
+    lazyeval
